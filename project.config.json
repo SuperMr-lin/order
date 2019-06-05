@@ -10,7 +10,7 @@
 	},
 	"appid": "wx6a4c2f5e91f47366",
 	"projectname": "miniPage",
-	"libVersion": "2.2.5",
+	"libVersion": "2.7.0",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
