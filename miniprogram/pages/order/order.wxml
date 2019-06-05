@@ -1,2 +1,23 @@
-<!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<view class='order-head'>我的订单</view>
+<view wx:for="{{list}}" wx:key="{{index}}">
+
+  <i-swipeout i-class="i-swipeout-demo-item" actions="{{actions}}">
+    <view slot="content">
+      <i-cell i-class="i-cell-padding" title="{{item.name}}" label="侏罗纪世界主题公园及豪华度假村被失控的恐龙们摧毁已有四年">
+      </i-cell>
+    </view>
+  </i-swipeout>
+</view>
+
+
+
+<i-swipeout id="order-list"  operateWidth="{{100}}">
+  <view slot="content" class='order-list-box'>
+    <image class='order-list-img'src='https://i.loli.net/2017/08/21/599a521472424.jpg'></image>
+    <view>asd</view>
+  </view>
+  <view slot="button" >
+    <view  class='order-list-btn'>删除</view>
+    <!-- <i-button bind:click="handleClick" type="primary" size="small">删除</i-button> -->
+  </view>
+</i-swipeout>

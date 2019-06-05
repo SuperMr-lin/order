@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "i-swipeout": "../../lib/dist/swipeout/index",
+    "i-action-sheet": "../../lib/dist/action-sheet/index",
+    "i-button": "../../lib/dist/button/index"
+  }
 }

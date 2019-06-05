@@ -5,7 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    loading:false,
+    pay:false,
+    list:[
+      {
+        name:"菜单1",
+        num:1,
+        money:25
+      },
+      {
+        name: "菜单2",
+        num: 1,
+        money: 23
+      },
+      {
+        name: "菜单3",
+        num: 2,
+        money: 22
+      }
+    ]
   },
 
   /**
